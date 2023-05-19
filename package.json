@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.2",
+    "surge": "^0.23.1",
+    "vite": "^4.3.8"
+  },
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
+}
