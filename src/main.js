@@ -20,7 +20,8 @@ submitBtn.addEventListener('click', (event) => {
 
   try {
     const verification = options[identificationType.value];
-    outputPEl.innerText = `A validação retornou ${verification}`;
+    outputPEl.innerText = verification ? `${identificationType.value} exite`
+      : `${identificationType.value} não existe`;
   } catch (error) {
     outputPEl.innerText = `A validação falhou com o erro: ${error.message}`;
   }
